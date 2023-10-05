@@ -384,13 +384,13 @@ h3.md-focus:before, h4.md-focus:before, h5.md-focus:before, h6.md-focus:before {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: 1.5rem;
 }
 
@@ -399,7 +399,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 h4 {
@@ -789,7 +789,7 @@ footer {
 
 /*sidebar*/
 .file-library-node.file-tree-node.file-node-root {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
@@ -807,7 +807,7 @@ footer {
 }
 
 #typora-sidebar {
-    font-size: inherit;
+    font-size: 0.7rem;
     font-family: var(--title-font);
 }
 

@@ -31,6 +31,52 @@
     font-style: italic;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title-font);
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+    color: var(--title-color);
+}
+
+h2::before {
+    content: 'H2 '!important;
+    font-size: 0.7rem;
+    color: #f22f27;
+}
+
+h3::before {
+    content: 'H3 '!important;
+    font-size: 0.7rem;
+    color: #f22f27;
+}
+
+h4::before {
+    content: 'H4 '!important;
+    font-size: 0.7rem;
+    color: #f22f27;
+}
+
+h5::before {
+    content: 'H5 '!important;
+    font-size: 0.7rem;
+    color: #f22f27;
+}
+
+h6::before {
+    content: 'H6 '!important;
+    font-size: 0.7rem;
+    color: #f22f27;
+}
+
 /*快速自定义配置*/
 :root {
     --monospace: "Iosevka Curly", "JetBrains Mono", "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan; /*代码字体*/
@@ -40,5 +86,5 @@
     --text-line-height: 1.6; /*正文行间距*/
     --code-line-height: 1.6; /*代码块行间距*/
     --p-spacing: 0.8rem; /*段间距*/
-    --text-size: 14px;
+    --text-size: 18px;
 }
